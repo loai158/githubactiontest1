@@ -12,3 +12,7 @@ jobs:
       steps:
         - name: Printing a welcome message
           run: echo "Welcome Loai To Work Flow!"
+        - name: Checking out the code
+          uses: actions/checkout@v4.2.2
+        - name: List the files
+          run: ls-la
