@@ -11,4 +11,4 @@ jobs:
 
       steps:
         - name: Printing a welcome message
-          run: echo"Welcome Loai To Work Flow!"
+          run: echo "Welcome Loai To Work Flow!"
