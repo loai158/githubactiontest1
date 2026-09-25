@@ -1,0 +1,14 @@
+name: First WorkFlow
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+    example-job:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Printing a welcome message
+          run: echo"Welcome Loai To Work Flow!"
