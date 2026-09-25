@@ -15,4 +15,4 @@ jobs:
         - name: Checking out the code
           uses: actions/checkout@v4.2.2
         - name: List the files
-          run: ls-la
+          run: ls -la
